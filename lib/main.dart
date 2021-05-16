@@ -174,6 +174,10 @@ class _RandomWordsState extends State<RandomWords> {
         pair.asPascalCase,
         style: _biggerFont,
       ),
+      trailing: Icon(
+        Icons.favorite_border,
+        color: null,
+      ),
     );
   }
 }
